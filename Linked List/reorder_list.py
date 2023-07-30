@@ -1,4 +1,4 @@
-def reorder_list(self, head):
+def reorder_list(head):
     # find middle
     slow, fast = head, head.next
     while fast and fast.next:
